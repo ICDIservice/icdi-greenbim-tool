@@ -1,0 +1,14 @@
+[project]
+name = "icdi-greenbim-tool"
+version = "0.1.0"
+authors = [
+    { name="Lucy Lee", email="lucy@icdi.asia" },
+]
+description = "A package for ICDI GreenBIM team."
+requires-python = ">=3.11"
+dependencies = [
+    "requests",
+    "typer[all]",
+]
+
+icdi-tool = "icdi_greenbim_tool.cli:app"
